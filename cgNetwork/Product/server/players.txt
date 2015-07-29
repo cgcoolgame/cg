@@ -1,0 +1,9 @@
+ID	Name	Account	Password	Score	FlowerNum	EggNum	ShoeNum
+1	"阿岛"	"iammaster"	"1"	45	2	1	0
+2	"人家呢"	"人家呢"	"123456"	43	1	0	0
+3	"master1234"	"iammaster3"	""	0	0	0	0
+4	"master1234"	"iammaster2"	""	0	0	0	0
+5	"阿岛"	"iammaster1"	""	0	0	0	0
+6	"阿岛"	"iammaster12"	""	0	0	0	0
+7	""	""	""	40	0	0	0
+8	"咦"	"123"	"123"	30	0	0	0
