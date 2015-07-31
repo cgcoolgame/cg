@@ -1,0 +1,11 @@
+id	group	bLoop	bStream	path
+0	2	0	0	./sounds/trans.wav
+1	2	0	0	./sounds/score.wav
+2	2	0	0	./sounds/lvl_up.wav
+3	2	0	0	./sounds/lose.wav
+4	0	1	1	./sounds/tetris.mp3
+5	0	1	1	./sounds/bk.mp3
+6	2	0	0	./sounds/appear.wav
+7	2	0	0	./sounds/wd231.wav
+8	2	0	0	./sounds/baozha.wav
+10000001	0	1	1	./sounds/plane.mp3

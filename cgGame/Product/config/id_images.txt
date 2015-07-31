@@ -1,0 +1,9 @@
+id	x	y	w	h	src
+0	0	0	256	256	./res/image/1.png
+1	0	0	256	256	./res/image/2.png
+2	0	0	256	256	./res/image/3.png
+3	0	0	256	256	./res/image/4.png
+4	0	0	256	256	./res/image/5.png
+5	0	0	256	256	./res/image/6.png
+6	0	0	256	256	./res/image/7.png
+7	0	0	256	256	./res/image/8.png

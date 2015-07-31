@@ -1,0 +1,3 @@
+nID	nNextBattle	strName	strBkImage	strDesc	strCraftConfig	boss	滚动速度
+1	2	誓水之滨	0	只是一个很神奇的地方，很多有意思的故事都发生在这里！	./battle/default/crafts.txt	200000080	100
+2	1	仟游科技	0	仟游科技，这是一个史无前例的公司，因为，他们有一个最伟大的程序员！	./battle/qy/crafts.txt	200000080	100

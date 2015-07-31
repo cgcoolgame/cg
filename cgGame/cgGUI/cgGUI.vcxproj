@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3FA3E8F1-1296-4E75-A84D-D7D4B3212E2C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>cgGUI</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>..\cgEngineCore;D:\Program Files\FMOD SoundSystem\FMOD Programmers API Windows\api\inc;$(IncludePath)</IncludePath>
+    <OutDir>..\lib</OutDir>
+    <TargetName>$(ProjectName)_D</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\lib</OutDir>
+    <IncludePath>..\cgEngineCore;D:\Program Files\FMOD SoundSystem\FMOD Programmers API Windows\api\inc;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_USE_CONSOLE_;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cgUIRichCharSpawner.h" />
+    <ClInclude Include="cgUIButton.h" />
+    <ClInclude Include="cgUIChar.h" />
+    <ClInclude Include="cgUICheck.h" />
+    <ClInclude Include="cgUIRichChar.h" />
+    <ClInclude Include="cgUIRichChar_Color.h" />
+    <ClInclude Include="cgUIRichChar_DelLine.h" />
+    <ClInclude Include="cgUIRichChar_Empty.h" />
+    <ClInclude Include="cgUIRichChar_EndLine.h" />
+    <ClInclude Include="cgUIRichChar_Font.h" />
+    <ClInclude Include="cgUIRichChar_Image.h" />
+    <ClInclude Include="cgUIRichChar_Link.h" />
+    <ClInclude Include="cgUIRichChar_UnderLine.h" />
+    <ClInclude Include="cgUIRichPen.h" />
+    <ClInclude Include="cgUIRichText.h" />
+    <ClInclude Include="cgUIWidget.h" />
+    <ClInclude Include="cgUIDef.h" />
+    <ClInclude Include="cgUILineEdit.h" />
+    <ClInclude Include="cgUIImage.h" />
+    <ClInclude Include="cgUILoader.h" />
+    <ClInclude Include="cgUIManager.h" />
+    <ClInclude Include="cgUIProgress.h" />
+    <ClInclude Include="cgUIRender.h" />
+    <ClInclude Include="cgUIWebPage.h" />
+    <ClInclude Include="cgUIWebPageEx.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cgUIRichCharSpawner.cpp" />
+    <ClCompile Include="cgUIButton.cpp" />
+    <ClCompile Include="cgUIChar.cpp" />
+    <ClCompile Include="cgUICheck.cpp" />
+    <ClCompile Include="cgUIRichChar.cpp" />
+    <ClCompile Include="cgUIRichChar_Color.cpp" />
+    <ClCompile Include="cgUIRichChar_DelLine.cpp" />
+    <ClCompile Include="cgUIRichChar_Empty.cpp" />
+    <ClCompile Include="cgUIRichChar_EndLine.cpp" />
+    <ClCompile Include="cgUIRichChar_Font.cpp" />
+    <ClCompile Include="cgUIRichChar_Image.cpp" />
+    <ClCompile Include="cgUIRichChar_Link.cpp" />
+    <ClCompile Include="cgUIRichChar_UnderLine.cpp" />
+    <ClCompile Include="cgUIRichPen.cpp" />
+    <ClCompile Include="cgUIRichText.cpp" />
+    <ClCompile Include="cgUIWidget.cpp" />
+    <ClCompile Include="cgUILineEdit.cpp" />
+    <ClCompile Include="cgUIImage.cpp" />
+    <ClCompile Include="cgUIManager.cpp" />
+    <ClCompile Include="cgUIProgress.cpp" />
+    <ClCompile Include="cgUIRender.cpp" />
+    <ClCompile Include="cgUIWebPage.cpp" />
+    <ClCompile Include="cgUIWebPageEx.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

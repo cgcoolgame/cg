@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CGDownloadDlg", "CGDownloadDlg\CGDownloadDlg.vcxproj", "{195BC5AD-96DB-4259-B84B-240EC97A8F2D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3B661BDE-CC91-43FF-9AA7-576600909BE1} = {3B661BDE-CC91-43FF-9AA7-576600909BE1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CGDownload", "..\cgGame\CGDownload\CGDownload.vcxproj", "{3B661BDE-CC91-43FF-9AA7-576600909BE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{195BC5AD-96DB-4259-B84B-240EC97A8F2D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{195BC5AD-96DB-4259-B84B-240EC97A8F2D}.Debug|Win32.Build.0 = Debug|Win32
+		{195BC5AD-96DB-4259-B84B-240EC97A8F2D}.Release|Win32.ActiveCfg = Release|Win32
+		{195BC5AD-96DB-4259-B84B-240EC97A8F2D}.Release|Win32.Build.0 = Release|Win32
+		{3B661BDE-CC91-43FF-9AA7-576600909BE1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3B661BDE-CC91-43FF-9AA7-576600909BE1}.Debug|Win32.Build.0 = Debug|Win32
+		{3B661BDE-CC91-43FF-9AA7-576600909BE1}.Release|Win32.ActiveCfg = Release|Win32
+		{3B661BDE-CC91-43FF-9AA7-576600909BE1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

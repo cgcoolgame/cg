@@ -1,0 +1,11 @@
+nID	nBasicSpeed	nBoundWidth	nBoundHeight	nBasicMaxHp	nMainWeaponID	nMainWeaponLvl	strName	strModel	strDesc
+1	800	100	64	500	1	1	ар╩П	./res/plane/GodPlane.png	жВу╫╩З
+2	40	100	64	300	2	1	ар╩П	./res/plane/LXPlane.png	ез╩р
+3	40	100	64	300	3	1	ар╩П	./res/plane/LiPlane.png	ез╩р
+4	40	100	64	300	3	1	ар╩П	./res/plane/BluePlane.png	ез╩р
+5	1000	100	64	300	0	1	ар╩П	./res/plane/BluePlane.png	п║м╥д©
+6	40	100	64	300	2	1	ар╩П	./res/plane/JitPlane.png	ез╩р
+7	40	100	64	300	3	1	ар╩П	./res/plane/XPlane.png	ез╩р
+8	40	100	64	300	3	1	ар╩П	./res/plane/YePlane.png	ез╩р
+9	1000	100	64	300	0	1	ар╩П	./res/plane/JpPlane.png	п║м╥д©
+100000001	0	128	64	30000	100000001	1	boss	./res/plane/RedPlane.png	boss

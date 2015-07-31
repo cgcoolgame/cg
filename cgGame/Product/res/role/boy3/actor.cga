@@ -1,0 +1,3 @@
+action_id	res_path	frame_num	sequence_num	frame_duration	loop
+0	stand.png	4	4	150	1
+1	walk.png	8	8	75	1	

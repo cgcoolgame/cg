@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="cgUIRender">
+      <UniqueIdentifier>{fee393bf-6def-4317-a11d-d6ba64afef5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgUIImage">
+      <UniqueIdentifier>{8eb2be87-fa35-4b21-8f02-23c6da7b53f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgUIManager">
+      <UniqueIdentifier>{d424dc7b-47ef-47c0-b708-bd700ff03a47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{8258706c-9ea4-4c5c-aee9-d71a57b1108e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\cgUIWebsite">
+      <UniqueIdentifier>{4ba657dd-655a-4eb2-a0cf-db2f7be84e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\cgUIEdit">
+      <UniqueIdentifier>{4c8b4fc4-90ce-4f76-8835-9a3fdd55106d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\cgUIButton">
+      <UniqueIdentifier>{acf0dfb0-3c28-4463-a163-45a597a72775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\cgUICheck">
+      <UniqueIdentifier>{23720351-6510-4a20-b7da-aed317ecd283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\cgUIProgressBar">
+      <UniqueIdentifier>{1cd6195c-bcc7-4089-a63d-ce6d0c6e08af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\cgUIWidget">
+      <UniqueIdentifier>{c13b448b-4c67-400b-ad49-969921b1b019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\cgUIRichText">
+      <UniqueIdentifier>{f449d9c4-40b7-4628-b1b1-643755be96aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\cgUIRichText\Char">
+      <UniqueIdentifier>{781b70d0-1902-4e49-b317-2625568d1320}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIRender.h">
+      <Filter>cgUIRender</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIImage.h">
+      <Filter>cgUIImage</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIManager.h">
+      <Filter>cgUIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIButton.h">
+      <Filter>Components\cgUIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUICheck.h">
+      <Filter>Components\cgUICheck</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUILoader.h">
+      <Filter>cgUIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIWidget.h">
+      <Filter>Components\cgUIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIProgress.h">
+      <Filter>Components\cgUIProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIWebPage.h">
+      <Filter>Components\cgUIWebsite</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIWebPageEx.h">
+      <Filter>Components\cgUIWebsite</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUILineEdit.h">
+      <Filter>Components\cgUIEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIRichText.h">
+      <Filter>Components\cgUIRichText</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIRichChar.h">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIChar.h">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIRichPen.h">
+      <Filter>Components\cgUIRichText</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIRichChar_Color.h">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIRichChar_Font.h">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIRichChar_UnderLine.h">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIRichChar_DelLine.h">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIRichChar_Link.h">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIRichChar_EndLine.h">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIRichChar_Empty.h">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIRichCharSpawner.h">
+      <Filter>Components\cgUIRichText</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIRichChar_Image.h">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIRender.cpp">
+      <Filter>cgUIRender</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIImage.cpp">
+      <Filter>cgUIImage</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIManager.cpp">
+      <Filter>cgUIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIButton.cpp">
+      <Filter>Components\cgUIButton</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUICheck.cpp">
+      <Filter>Components\cgUICheck</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIWidget.cpp">
+      <Filter>Components\cgUIWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIProgress.cpp">
+      <Filter>Components\cgUIProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIWebPage.cpp">
+      <Filter>Components\cgUIWebsite</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIWebPageEx.cpp">
+      <Filter>Components\cgUIWebsite</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUILineEdit.cpp">
+      <Filter>Components\cgUIEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIRichText.cpp">
+      <Filter>Components\cgUIRichText</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIRichChar.cpp">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIChar.cpp">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIRichPen.cpp">
+      <Filter>Components\cgUIRichText</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIRichChar_Color.cpp">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIRichChar_Font.cpp">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIRichChar_UnderLine.cpp">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIRichChar_DelLine.cpp">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIRichChar_Link.cpp">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIRichChar_EndLine.cpp">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIRichChar_Empty.cpp">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIRichCharSpawner.cpp">
+      <Filter>Components\cgUIRichText</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIRichChar_Image.cpp">
+      <Filter>Components\cgUIRichText\Char</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

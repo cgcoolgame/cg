@@ -1,0 +1,3 @@
+id	name	path	lvl	boss
+1	天大地大	啦啦	0	0
+2	0	阿是打发	8	7

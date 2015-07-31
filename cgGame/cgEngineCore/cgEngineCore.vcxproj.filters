@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="cgRender">
+      <UniqueIdentifier>{1a41f80a-e8be-4780-92e0-0e1077d52b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgSoundPlayer">
+      <UniqueIdentifier>{0387f0b0-6824-4c19-a30b-88cba7a6f389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgWindow">
+      <UniqueIdentifier>{d808653f-8180-4e10-a3c1-7d77c8581479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgWinApp">
+      <UniqueIdentifier>{9f6f32b8-c526-406e-b5a1-49d5b1d1ef97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgPlatform">
+      <UniqueIdentifier>{a90650a3-d030-4595-8016-aa12cf9de353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgSmartPtr">
+      <UniqueIdentifier>{3d010746-74a2-4086-abd2-6b7183319618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgUtility">
+      <UniqueIdentifier>{19c13430-b44f-4b5f-b283-a6627420e0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgImage">
+      <UniqueIdentifier>{34e015a3-d7ce-47e3-8ec6-d3251d311180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgFont">
+      <UniqueIdentifier>{203d4e4a-30b5-43f4-977f-ad4860a46d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgTxtDataReader">
+      <UniqueIdentifier>{2f7c8ab3-d966-4481-b087-993f537e42a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgFile">
+      <UniqueIdentifier>{c58af8bd-d170-4016-a693-62a2b54fcfe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgString">
+      <UniqueIdentifier>{482ae6f3-a6ed-42cb-b0ef-56201142e15e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgRender\d3drender">
+      <UniqueIdentifier>{bb42a50a-ca59-421b-8699-9ff96836a648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgCursor">
+      <UniqueIdentifier>{a40abe94-b617-4aff-8c49-a6a5f52a851d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgTime">
+      <UniqueIdentifier>{4394fad1-b98f-443a-9b2c-4ad6b2f9ac11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cgRender.h">
+      <Filter>cgRender</Filter>
+    </ClInclude>
+    <ClInclude Include="cgRenderImpl.h">
+      <Filter>cgRender</Filter>
+    </ClInclude>
+    <ClInclude Include="cgFMODSoundPlayerImpl.h">
+      <Filter>cgSoundPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="cgSoundPlayer.h">
+      <Filter>cgSoundPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="cgSoundPlayerImpl.h">
+      <Filter>cgSoundPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CGWindow.h">
+      <Filter>cgWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="cgWinApp.h">
+      <Filter>cgWinApp</Filter>
+    </ClInclude>
+    <ClInclude Include="cgPlatform.h">
+      <Filter>cgPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="cgWindowsPlatform.h">
+      <Filter>cgPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="cgRefObject.h">
+      <Filter>cgSmartPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="cgSmartPointer.h">
+      <Filter>cgSmartPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="cgStorage.h">
+      <Filter>cgUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="cgDefine.h">
+      <Filter>cgUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="cgSingleton.h">
+      <Filter>cgUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="cgImage.h">
+      <Filter>cgImage</Filter>
+    </ClInclude>
+    <ClInclude Include="cgFont.h">
+      <Filter>cgFont</Filter>
+    </ClInclude>
+    <ClInclude Include="cgFontManager.h">
+      <Filter>cgFont</Filter>
+    </ClInclude>
+    <ClInclude Include="cgTxtDataReader.h">
+      <Filter>cgTxtDataReader</Filter>
+    </ClInclude>
+    <ClInclude Include="cgStringTable.h">
+      <Filter>cgString</Filter>
+    </ClInclude>
+    <ClInclude Include="cgRenderImage.h">
+      <Filter>cgImage</Filter>
+    </ClInclude>
+    <ClInclude Include="cgEngineTools.h">
+      <Filter>cgUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="cgVector.h">
+      <Filter>cgUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="cgImageTools.h">
+      <Filter>cgImage</Filter>
+    </ClInclude>
+    <ClInclude Include="cgPolygon.h">
+      <Filter>cgUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="cgRefImage.h">
+      <Filter>cgImage</Filter>
+    </ClInclude>
+    <ClInclude Include="cgD3DRenderImpl.h">
+      <Filter>cgRender\d3drender</Filter>
+    </ClInclude>
+    <ClInclude Include="cgD3DImage.h">
+      <Filter>cgRender\d3drender</Filter>
+    </ClInclude>
+    <ClInclude Include="cgD3dImageImpl.h">
+      <Filter>cgRender\d3drender</Filter>
+    </ClInclude>
+    <ClInclude Include="cgMath.h">
+      <Filter>cgUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="cgCursorManager.h">
+      <Filter>cgCursor</Filter>
+    </ClInclude>
+    <ClInclude Include="cgTime.h">
+      <Filter>cgTime</Filter>
+    </ClInclude>
+    <ClInclude Include="cgApp.h">
+      <Filter>cgWinApp</Filter>
+    </ClInclude>
+    <ClInclude Include="cgArray.h">
+      <Filter>cgUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="cgStringDef.h">
+      <Filter>cgString</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cgRender.cpp">
+      <Filter>cgRender</Filter>
+    </ClCompile>
+    <ClCompile Include="cgFMODSoundPlayerImpl.cpp">
+      <Filter>cgSoundPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="cgSoundPlayer.cpp">
+      <Filter>cgSoundPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="cgWinApp.cpp">
+      <Filter>cgWinApp</Filter>
+    </ClCompile>
+    <ClCompile Include="cgPlatform.cpp">
+      <Filter>cgPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="cgWindowsPlatform.cpp">
+      <Filter>cgPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="cgRefObject.cpp">
+      <Filter>cgSmartPtr</Filter>
+    </ClCompile>
+    <ClCompile Include="cgImage.cpp">
+      <Filter>cgImage</Filter>
+    </ClCompile>
+    <ClCompile Include="cgFont.cpp">
+      <Filter>cgFont</Filter>
+    </ClCompile>
+    <ClCompile Include="cgFontManager.cpp">
+      <Filter>cgFont</Filter>
+    </ClCompile>
+    <ClCompile Include="cgTxtDataReader.cpp">
+      <Filter>cgTxtDataReader</Filter>
+    </ClCompile>
+    <ClCompile Include="cgWindow.cpp">
+      <Filter>cgWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="cgStringTable.cpp">
+      <Filter>cgString</Filter>
+    </ClCompile>
+    <ClCompile Include="cgRenderImage.cpp">
+      <Filter>cgImage</Filter>
+    </ClCompile>
+    <ClCompile Include="cgEngineTools.cpp">
+      <Filter>cgUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="cgVector.cpp">
+      <Filter>cgUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="cgImageTools.cpp">
+      <Filter>cgImage</Filter>
+    </ClCompile>
+    <ClCompile Include="cgPolygon.cpp">
+      <Filter>cgUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="cgRefImage.cpp">
+      <Filter>cgImage</Filter>
+    </ClCompile>
+    <ClCompile Include="cgD3DRenderImpl.cpp">
+      <Filter>cgRender\d3drender</Filter>
+    </ClCompile>
+    <ClCompile Include="cgD3DImage.cpp">
+      <Filter>cgRender\d3drender</Filter>
+    </ClCompile>
+    <ClCompile Include="cgD3dImageImpl.cpp">
+      <Filter>cgRender\d3drender</Filter>
+    </ClCompile>
+    <ClCompile Include="cgMath.cpp">
+      <Filter>cgUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="cgCursorManager.cpp">
+      <Filter>cgCursor</Filter>
+    </ClCompile>
+    <ClCompile Include="cgTime.cpp">
+      <Filter>cgTime</Filter>
+    </ClCompile>
+    <ClCompile Include="cgApp.cpp">
+      <Filter>cgWinApp</Filter>
+    </ClCompile>
+    <ClCompile Include="cgArray.cpp">
+      <Filter>cgUtility</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

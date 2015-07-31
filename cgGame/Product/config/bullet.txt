@@ -1,0 +1,5 @@
+nID	nAttack	nSpeed	nHitSound	nBoundW	nBoundH	strName	strModel	strDesc	nFlag
+1	50	1000	7	32	32	bullet001	./res/bullet/bullet_02.png	子弹一号	0
+2	100	1000	7	32	32	bullet002	./res/bullet/bullet_04.png	子弹二号	0
+3	50	200	7	32	32	bullet003	./res/bullet/bullet_03.png	子弹二号	0
+4	50	500	7	32	32	bullet003	./res/bullet/bullet_02.png	子弹二号	0

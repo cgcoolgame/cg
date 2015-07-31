@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="tetris">
+      <UniqueIdentifier>{5ab09a96-8ff0-4cf1-8861-01592ed01a90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgUITest">
+      <UniqueIdentifier>{ed690395-89b9-4ed6-b32c-2119366aacd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgILoveShootting">
+      <UniqueIdentifier>{c7ff00a1-379b-478d-a28a-9fc6ab2bbd15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgRun">
+      <UniqueIdentifier>{2df9a516-f60d-4d7e-a169-10d3d7d82732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pick">
+      <UniqueIdentifier>{48469aba-1684-42bd-92f8-72f45107af89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="WebGame">
+      <UniqueIdentifier>{10bf9bbb-0d64-4aa6-81c6-c9b585bd20d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cgTetris.cpp">
+      <Filter>tetris</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUITest.cpp">
+      <Filter>cgUITest</Filter>
+    </ClCompile>
+    <ClCompile Include="cgILoveShooting.cpp">
+      <Filter>cgILoveShootting</Filter>
+    </ClCompile>
+    <ClCompile Include="cgILoveShootingGame.cpp">
+      <Filter>cgILoveShootting</Filter>
+    </ClCompile>
+    <ClCompile Include="cgAircraft.cpp">
+      <Filter>cgILoveShootting</Filter>
+    </ClCompile>
+    <ClCompile Include="cgFlyObjectManager.cpp">
+      <Filter>cgILoveShootting</Filter>
+    </ClCompile>
+    <ClCompile Include="cgBullet.cpp">
+      <Filter>cgILoveShootting</Filter>
+    </ClCompile>
+    <ClCompile Include="cgILSConfigManager.cpp">
+      <Filter>cgILoveShootting</Filter>
+    </ClCompile>
+    <ClCompile Include="cgAircraftWeapon.cpp">
+      <Filter>cgILoveShootting</Filter>
+    </ClCompile>
+    <ClCompile Include="cgRunApp.cpp">
+      <Filter>cgRun</Filter>
+    </ClCompile>
+    <ClCompile Include="cgBattleManager.cpp">
+      <Filter>cgILoveShootting</Filter>
+    </ClCompile>
+    <ClCompile Include="cgFlyBox.cpp">
+      <Filter>cgILoveShootting</Filter>
+    </ClCompile>
+    <ClCompile Include="cgPickGame.cpp">
+      <Filter>Pick</Filter>
+    </ClCompile>
+    <ClCompile Include="cgTestUILoader.cpp">
+      <Filter>cgUITest</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGdiplusUITest.cpp">
+      <Filter>cgUITest</Filter>
+    </ClCompile>
+    <ClCompile Include="cgWebGame.cpp">
+      <Filter>WebGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cgTetris.h">
+      <Filter>tetris</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUITest.h">
+      <Filter>cgUITest</Filter>
+    </ClInclude>
+    <ClInclude Include="cgILoveShooting.h">
+      <Filter>cgILoveShootting</Filter>
+    </ClInclude>
+    <ClInclude Include="cgILoveShootingGame.h">
+      <Filter>cgILoveShootting</Filter>
+    </ClInclude>
+    <ClInclude Include="cgAircraft.h">
+      <Filter>cgILoveShootting</Filter>
+    </ClInclude>
+    <ClInclude Include="cgFlyObjectManager.h">
+      <Filter>cgILoveShootting</Filter>
+    </ClInclude>
+    <ClInclude Include="cgILoveShootingDef.h">
+      <Filter>cgILoveShootting</Filter>
+    </ClInclude>
+    <ClInclude Include="cgBullet.h">
+      <Filter>cgILoveShootting</Filter>
+    </ClInclude>
+    <ClInclude Include="cgILSConfigManager.h">
+      <Filter>cgILoveShootting</Filter>
+    </ClInclude>
+    <ClInclude Include="cgAircraftWeapon.h">
+      <Filter>cgILoveShootting</Filter>
+    </ClInclude>
+    <ClInclude Include="cgRunApp.h">
+      <Filter>cgRun</Filter>
+    </ClInclude>
+    <ClInclude Include="cgBattleManager.h">
+      <Filter>cgILoveShootting</Filter>
+    </ClInclude>
+    <ClInclude Include="cgFlyBox.h">
+      <Filter>cgILoveShootting</Filter>
+    </ClInclude>
+    <ClInclude Include="cgPickGame.h">
+      <Filter>Pick</Filter>
+    </ClInclude>
+    <ClInclude Include="cgTestUILoader.h">
+      <Filter>cgUITest</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGdiplusUITest.h">
+      <Filter>cgUITest</Filter>
+    </ClInclude>
+    <ClInclude Include="cgWebGame.h">
+      <Filter>WebGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleWinGame.ico">
+      <Filter>Source Files\Resource Files</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Source Files\Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SimpleWinGame.rc">
+      <Filter>Source Files\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

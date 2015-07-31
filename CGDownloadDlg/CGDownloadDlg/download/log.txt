@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------
+Wed Oct 30 22:40:34 2013
+Src File Url : img.oyksoft.com/month_1008/201008240633512578.png
+Save Path : F:\download/201008240633512578.png
+End Type : Finished!
+Total Size : 31276
+Download Size : 31276
+Total Time : 0.59 s
+Lastest Speed : 52 k/s
+Average Speed : 52 k/s
+--------------------------------------------------------------------------------
+Wed Oct 30 22:40:40 2013
+Src File Url : img.oyksoft.com/month_1008/201008240633512578.png
+Save Path : F:\download/201008240633512578.png
+End Type : Finished!
+Total Size : 31276
+Download Size : 31276
+Total Time : 0.13 s
+Lastest Speed : 250 k/s
+Average Speed : 250 k/s
+--------------------------------------------------------------------------------
+Sat Aug 23 22:24:47 2014
+Src File Url : dldir1.qq.com/qqfile/qq/QQ6.2/12179/QQ6.2.exe
+Save Path : F:\download/QQ6.2.exe
+End Type : Finished!			 
+Total Size : 58201272
+Download Size : 58201272
+Total Time : 45.05 s			 
+Lastest Speed : 1272 k/s
+Average Speed : 1291 k/s
+--------------------------------------------------------------------------------
+Sat Aug 23 22:26:44 2014
+Src File Url : dldir1.qq.com/qqfile/qq/QQ6.2/12179/QQ6.2.exe
+Save Path : F:\download/QQ6.2.exe
+End Type : Finished!			 
+Total Size : 58201272
+Download Size : 58201272
+Total Time : 44.84 s			 
+Lastest Speed : 1273 k/s
+Average Speed : 1298 k/s
+--------------------------------------------------------------------------------
+Sat Aug 23 22:29:19 2014
+Src File Url : img5.duitang.com/uploads/item/201212/04/20121204232018_jwAR2.jpeg
+Save Path : F:\download/20121204232018_jwAR2.jpeg
+End Type : Failed			 
+Total Size : 0
+Download Size : 0
+Total Time : 0.90 s			 
+Lastest Speed : 0 k/s
+Average Speed : 0 k/s
+--------------------------------------------------------------------------------
+Sat Aug 23 22:29:30 2014
+Src File Url : img5.duitang.com/uploads/item/201212/04/20121204232018_jwAR2.jpeg
+Save Path : F:\download/20121204232018_jwAR2.jpeg
+End Type : Failed			 
+Total Size : 0
+Download Size : 0
+Total Time : 0.69 s			 
+Lastest Speed : 0 k/s
+Average Speed : 0 k/s
+--------------------------------------------------------------------------------
+Sat Aug 23 22:30:38 2014
+Src File Url : img5.duitang.com/uploads/item/201212/04/20121204232018_jwAR2.jpeg
+Save Path : F:\download/20121204232018_jwAR2.jpeg
+End Type : Failed			 
+Total Size : 0
+Download Size : 0
+Total Time : 22.74 s			 
+Lastest Speed : 0 k/s
+Average Speed : 0 k/s
+--------------------------------------------------------------------------------
+Sat Aug 23 22:31:34 2014
+Src File Url : www.1tong.com/uploads/wallpaper/anime/220-1-1680x1050.jpg
+Save Path : F:\download/220-1-1680x1050.jpg
+End Type : Finished!			 
+Total Size : 263061
+Download Size : 263061
+Total Time : 4.99 s			 
+Lastest Speed : 129 k/s
+Average Speed : 52 k/s

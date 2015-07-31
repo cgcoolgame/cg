@@ -1,0 +1,12 @@
+a    b   c		d	"我是  我"	ee	aa''bb	dd
+
+a    b   c		d	我是 我	ee	aa'啊\n啊'bb	dd
+
+
+
+
+
+
+a    b   c		d	""	ee	aa''bb	dd
+
+asdf

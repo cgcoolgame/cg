@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="cgGameApp">
+      <UniqueIdentifier>{f8727d7f-5306-4175-ac7f-506432b672a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgSrcImage">
+      <UniqueIdentifier>{d858ee9a-7cfc-41f7-a2d0-afeb06b80b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgSoundManager">
+      <UniqueIdentifier>{7798ba65-22b0-44b6-99da-9b1161872acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgGameConfig">
+      <UniqueIdentifier>{a9a02fa3-affb-44d0-bef6-4a9b7f94dba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgGameUI">
+      <UniqueIdentifier>{09445823-eb09-4262-8437-edcd660f910b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgGameTools">
+      <UniqueIdentifier>{cbab6624-c255-45f1-8aa5-7362645ab578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgGameCommand">
+      <UniqueIdentifier>{294c1de9-149b-4f26-9f7d-ca4d26244c05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgGameMessage">
+      <UniqueIdentifier>{3d1347c0-f9d8-4f94-a0dc-aaba764b4023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgGameTask">
+      <UniqueIdentifier>{de675124-aa51-4763-9aa8-17adfe42dcf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgActor">
+      <UniqueIdentifier>{29350268-6505-431e-9dae-cbbbeb8d876a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgImageSequence">
+      <UniqueIdentifier>{a89100aa-5d3e-430e-8c84-3d9c196b941d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgEffect">
+      <UniqueIdentifier>{80decf44-c978-4951-ba5f-179ea8dd82e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{0422b75e-d23f-40ee-8f5f-c4b283a44869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Action">
+      <UniqueIdentifier>{e247634a-37b9-4fa4-894a-bd087beee667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Object">
+      <UniqueIdentifier>{d8357d48-7f38-4cef-ae22-b4d190579615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Action\Move">
+      <UniqueIdentifier>{da34b855-a2b4-4bdd-84cf-56ad11d8b66d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Action\Rotate">
+      <UniqueIdentifier>{dfd67790-9f33-48af-b4f4-4c7c58be0e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Action\Scale">
+      <UniqueIdentifier>{732b893b-e680-45db-898a-5ef39e8e5f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Action\Other">
+      <UniqueIdentifier>{c860aadb-7952-4863-a969-cfa7e9dab36d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Action\Move\Alpha">
+      <UniqueIdentifier>{fb0a0c8d-3fca-4079-a748-9f61fa594a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cgSceneManager">
+      <UniqueIdentifier>{44918e77-d2f4-4d89-8e41-15cb7d56b9ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{92a27ed0-5ed2-458c-8131-c444b2277a65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameApp.h">
+      <Filter>cgGameApp</Filter>
+    </ClInclude>
+    <ClInclude Include="cgSrcImageManager.h">
+      <Filter>cgSrcImage</Filter>
+    </ClInclude>
+    <ClInclude Include="cgIDImageManager.h">
+      <Filter>cgSrcImage</Filter>
+    </ClInclude>
+    <ClInclude Include="cgSoundManager.h">
+      <Filter>cgSoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameUIRender.h">
+      <Filter>cgGameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameTools.h">
+      <Filter>cgGameTools</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameCommand.h">
+      <Filter>cgGameCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameMessage.h">
+      <Filter>cgGameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameTask.h">
+      <Filter>cgGameTask</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameCommandManager.h">
+      <Filter>cgGameCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameTaskManager.h">
+      <Filter>cgGameTask</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameCommandUtility.h">
+      <Filter>cgGameCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameTaskUtility.h">
+      <Filter>cgGameTask</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameMessageListenerManager.h">
+      <Filter>cgGameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="cgAnimation.h">
+      <Filter>cgActor</Filter>
+    </ClInclude>
+    <ClInclude Include="cgAnimationUtility.h">
+      <Filter>cgActor</Filter>
+    </ClInclude>
+    <ClInclude Include="cgActor.h">
+      <Filter>cgActor</Filter>
+    </ClInclude>
+    <ClInclude Include="cgImageSequence.h">
+      <Filter>cgImageSequence</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameObjectDef.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cgCamera.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameCamera.h">
+      <Filter>GameObject\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameLayer.h">
+      <Filter>GameObject\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cgMoveTo.h">
+      <Filter>GameObject\Action\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="cgMove.h">
+      <Filter>GameObject\Action\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="cgMoveBy.h">
+      <Filter>GameObject\Action\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="cgRotate.h">
+      <Filter>GameObject\Action\Rotate</Filter>
+    </ClInclude>
+    <ClInclude Include="cgScaleTo.h">
+      <Filter>GameObject\Action\Scale</Filter>
+    </ClInclude>
+    <ClInclude Include="cgScaleBy.h">
+      <Filter>GameObject\Action\Scale</Filter>
+    </ClInclude>
+    <ClInclude Include="cgRotateBy.h">
+      <Filter>GameObject\Action\Rotate</Filter>
+    </ClInclude>
+    <ClInclude Include="cgRotateTo.h">
+      <Filter>GameObject\Action\Rotate</Filter>
+    </ClInclude>
+    <ClInclude Include="cgRotateAround.h">
+      <Filter>GameObject\Action\Rotate</Filter>
+    </ClInclude>
+    <ClInclude Include="cgAlphaBy.h">
+      <Filter>GameObject\Action\Move\Alpha</Filter>
+    </ClInclude>
+    <ClInclude Include="cgAlphaTo.h">
+      <Filter>GameObject\Action\Move\Alpha</Filter>
+    </ClInclude>
+    <ClInclude Include="cgActionSequence.h">
+      <Filter>GameObject\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="cgVisible.h">
+      <Filter>GameObject\Action\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="cgWait.h">
+      <Filter>GameObject\Action\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="cgDestroy.h">
+      <Filter>GameObject\Action\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="cgActionBundle.h">
+      <Filter>GameObject\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="cgBlink.h">
+      <Filter>GameObject\Action\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameText.h">
+      <Filter>GameObject\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameConfig.h">
+      <Filter>cgGameConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cgAction.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIEventListener.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameUIManager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cgButton.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIObject.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cgSceneManager.h">
+      <Filter>cgSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameObjectRoot.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cgUIObjectDef.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cgDeactive.h">
+      <Filter>GameObject\Action\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="cgGameSprite.h">
+      <Filter>GameObject\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameApp.cpp">
+      <Filter>cgGameApp</Filter>
+    </ClCompile>
+    <ClCompile Include="cgSrcImageManager.cpp">
+      <Filter>cgSrcImage</Filter>
+    </ClCompile>
+    <ClCompile Include="cgIDImageManager.cpp">
+      <Filter>cgSrcImage</Filter>
+    </ClCompile>
+    <ClCompile Include="cgSoundManager.cpp">
+      <Filter>cgSoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameUIRender.cpp">
+      <Filter>cgGameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameTools.cpp">
+      <Filter>cgGameTools</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameCommand.cpp">
+      <Filter>cgGameCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameMessage.cpp">
+      <Filter>cgGameMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameTask.cpp">
+      <Filter>cgGameTask</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameCommandManager.cpp">
+      <Filter>cgGameCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameTaskManager.cpp">
+      <Filter>cgGameTask</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameCommandUtility.cpp">
+      <Filter>cgGameCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameTaskUtility.cpp">
+      <Filter>cgGameTask</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameMessageListenerManager.cpp">
+      <Filter>cgGameMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="cgAnimation.cpp">
+      <Filter>cgActor</Filter>
+    </ClCompile>
+    <ClCompile Include="cgAnimationUtility.cpp">
+      <Filter>cgActor</Filter>
+    </ClCompile>
+    <ClCompile Include="cgActor.cpp">
+      <Filter>cgActor</Filter>
+    </ClCompile>
+    <ClCompile Include="cgImageSequence.cpp">
+      <Filter>cgImageSequence</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameObjectDef.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cgCamera.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameCamera.cpp">
+      <Filter>GameObject\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameLayer.cpp">
+      <Filter>GameObject\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cgMove.cpp">
+      <Filter>GameObject\Action\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="cgMoveBy.cpp">
+      <Filter>GameObject\Action\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="cgMoveTo.cpp">
+      <Filter>GameObject\Action\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="cgRotate.cpp">
+      <Filter>GameObject\Action\Rotate</Filter>
+    </ClCompile>
+    <ClCompile Include="cgScaleBy.cpp">
+      <Filter>GameObject\Action\Scale</Filter>
+    </ClCompile>
+    <ClCompile Include="cgScaleTo.cpp">
+      <Filter>GameObject\Action\Scale</Filter>
+    </ClCompile>
+    <ClCompile Include="cgRotateBy.cpp">
+      <Filter>GameObject\Action\Rotate</Filter>
+    </ClCompile>
+    <ClCompile Include="cgRotateTo.cpp">
+      <Filter>GameObject\Action\Rotate</Filter>
+    </ClCompile>
+    <ClCompile Include="cgRotateAround.cpp">
+      <Filter>GameObject\Action\Rotate</Filter>
+    </ClCompile>
+    <ClCompile Include="cgAlphaBy.cpp">
+      <Filter>GameObject\Action\Move\Alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="cgAlphaTo.cpp">
+      <Filter>GameObject\Action\Move\Alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="cgActionSequence.cpp">
+      <Filter>GameObject\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="cgVisible.cpp">
+      <Filter>GameObject\Action\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="cgWait.cpp">
+      <Filter>GameObject\Action\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="cgDestroy.cpp">
+      <Filter>GameObject\Action\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="cgActionBundle.cpp">
+      <Filter>GameObject\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="cgBlink.cpp">
+      <Filter>GameObject\Action\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameText.cpp">
+      <Filter>GameObject\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameConfig.cpp">
+      <Filter>cgGameConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cgAction.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIEventListener.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameUIManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cgButton.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIDef.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cgUIObject.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cgSceneManager.cpp">
+      <Filter>cgSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameObjectRoot.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cgDeactive.cpp">
+      <Filter>GameObject\Action\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="cgGameSprite.cpp">
+      <Filter>GameObject\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

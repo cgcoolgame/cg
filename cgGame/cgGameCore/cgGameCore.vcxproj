@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AB46A4F4-C58B-4AA1-A4CC-5AD8CCEBD055}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>cgGameCore</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>..\cgGUI;..\cgEngineCore;$(IncludePath)</IncludePath>
+    <OutDir>..\lib</OutDir>
+    <TargetName>$(ProjectName)_D</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\lib</OutDir>
+    <IncludePath>..\cgGUI;..\cgEngineCore;D:\Program Files\FMOD SoundSystem\FMOD Programmers API Windows\api\inc;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_USE_CONSOLE_;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cgAction.h" />
+    <ClInclude Include="cgActionBundle.h" />
+    <ClInclude Include="cgActionSequence.h" />
+    <ClInclude Include="cgAlphaBy.h" />
+    <ClInclude Include="cgAlphaTo.h" />
+    <ClInclude Include="cgAnimation.h" />
+    <ClInclude Include="cgActor.h" />
+    <ClInclude Include="cgBlink.h" />
+    <ClInclude Include="cgButton.h" />
+    <ClInclude Include="cgDeactive.h" />
+    <ClInclude Include="cgDestroy.h" />
+    <ClInclude Include="cgGameCamera.h" />
+    <ClInclude Include="cgCamera.h" />
+    <ClInclude Include="cgGameConfig.h" />
+    <ClInclude Include="cgGameLayer.h" />
+    <ClInclude Include="cgGameObject.h" />
+    <ClInclude Include="cgGameObjectDef.h" />
+    <ClInclude Include="cgGameObjectRoot.h" />
+    <ClInclude Include="cgGameSprite.h" />
+    <ClInclude Include="cgGameText.h" />
+    <ClInclude Include="cgGameUIManager.h" />
+    <ClInclude Include="cgImageSequence.h" />
+    <ClInclude Include="cgAnimationUtility.h" />
+    <ClInclude Include="cgGameApp.h" />
+    <ClInclude Include="cgGameCommandUtility.h" />
+    <ClInclude Include="cgGameCommand.h" />
+    <ClInclude Include="cgGameCommandManager.h" />
+    <ClInclude Include="cgGameMessage.h" />
+    <ClInclude Include="cgGameMessageListenerManager.h" />
+    <ClInclude Include="cgGameTask.h" />
+    <ClInclude Include="cgGameTaskManager.h" />
+    <ClInclude Include="cgGameTaskUtility.h" />
+    <ClInclude Include="cgGameTools.h" />
+    <ClInclude Include="cgGameUIRender.h" />
+    <ClInclude Include="cgIDImageManager.h" />
+    <ClInclude Include="cgMove.h" />
+    <ClInclude Include="cgMoveBy.h" />
+    <ClInclude Include="cgMoveTo.h" />
+    <ClInclude Include="cgRotate.h" />
+    <ClInclude Include="cgRotateAround.h" />
+    <ClInclude Include="cgRotateBy.h" />
+    <ClInclude Include="cgRotateTo.h" />
+    <ClInclude Include="cgScaleBy.h" />
+    <ClInclude Include="cgScaleTo.h" />
+    <ClInclude Include="cgSceneManager.h" />
+    <ClInclude Include="cgSoundManager.h" />
+    <ClInclude Include="cgSrcImageManager.h" />
+    <ClInclude Include="cgUIObject.h" />
+    <ClInclude Include="cgUIObjectDef.h" />
+    <ClInclude Include="cgUIEventListener.h" />
+    <ClInclude Include="cgVisible.h" />
+    <ClInclude Include="cgWait.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cgAction.cpp" />
+    <ClCompile Include="cgActionBundle.cpp" />
+    <ClCompile Include="cgActionSequence.cpp" />
+    <ClCompile Include="cgAlphaBy.cpp" />
+    <ClCompile Include="cgAlphaTo.cpp" />
+    <ClCompile Include="cgAnimation.cpp" />
+    <ClCompile Include="cgActor.cpp" />
+    <ClCompile Include="cgBlink.cpp" />
+    <ClCompile Include="cgButton.cpp" />
+    <ClCompile Include="cgDeactive.cpp" />
+    <ClCompile Include="cgDestroy.cpp" />
+    <ClCompile Include="cgGameCamera.cpp" />
+    <ClCompile Include="cgCamera.cpp" />
+    <ClCompile Include="cgGameConfig.cpp" />
+    <ClCompile Include="cgGameLayer.cpp" />
+    <ClCompile Include="cgGameObject.cpp" />
+    <ClCompile Include="cgGameObjectDef.cpp" />
+    <ClCompile Include="cgGameObjectRoot.cpp" />
+    <ClCompile Include="cgGameSprite.cpp" />
+    <ClCompile Include="cgGameText.cpp" />
+    <ClCompile Include="cgGameUIManager.cpp" />
+    <ClCompile Include="cgImageSequence.cpp" />
+    <ClCompile Include="cgAnimationUtility.cpp" />
+    <ClCompile Include="cgGameApp.cpp" />
+    <ClCompile Include="cgGameCommandUtility.cpp" />
+    <ClCompile Include="cgGameCommand.cpp" />
+    <ClCompile Include="cgGameCommandManager.cpp" />
+    <ClCompile Include="cgGameMessage.cpp" />
+    <ClCompile Include="cgGameMessageListenerManager.cpp" />
+    <ClCompile Include="cgGameTask.cpp" />
+    <ClCompile Include="cgGameTaskManager.cpp" />
+    <ClCompile Include="cgGameTaskUtility.cpp" />
+    <ClCompile Include="cgGameTools.cpp" />
+    <ClCompile Include="cgGameUIRender.cpp" />
+    <ClCompile Include="cgIDImageManager.cpp" />
+    <ClCompile Include="cgMove.cpp" />
+    <ClCompile Include="cgMoveBy.cpp" />
+    <ClCompile Include="cgMoveTo.cpp" />
+    <ClCompile Include="cgRotate.cpp" />
+    <ClCompile Include="cgRotateAround.cpp" />
+    <ClCompile Include="cgRotateBy.cpp" />
+    <ClCompile Include="cgRotateTo.cpp" />
+    <ClCompile Include="cgScaleBy.cpp" />
+    <ClCompile Include="cgScaleTo.cpp" />
+    <ClCompile Include="cgSceneManager.cpp" />
+    <ClCompile Include="cgSoundManager.cpp" />
+    <ClCompile Include="cgSrcImageManager.cpp" />
+    <ClCompile Include="cgUIObject.cpp" />
+    <ClCompile Include="cgUIDef.cpp" />
+    <ClCompile Include="cgUIEventListener.cpp" />
+    <ClCompile Include="cgVisible.cpp" />
+    <ClCompile Include="cgWait.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
