@@ -17,7 +17,7 @@ class CcgClientUIDlg : public CDialogEx,
 // 构造
 public:
 	CcgClientUIDlg(CWnd* pParent = NULL);	// 标准构造函数
-
+	~CcgClientUIDlg();
 // 对话框数据
 	enum { IDD = IDD_CGCLIENTUI_DIALOG };
 

@@ -67,6 +67,17 @@ CcgClientUIDlg::CcgClientUIDlg(CWnd* pParent /*=NULL*/)
 	m_bIsPainting = false;
 }
 
+
+CcgClientUIDlg::~CcgClientUIDlg()
+{
+	if (m_pkClientSocket)
+	{
+		delete m_pkClientSocket;
+	}
+	cgNetworkDef::NetworkDestroy();
+}
+
+
 void CcgClientUIDlg::DoDataExchange(CDataExchange* pDX)
 {
 	CDialogEx::DoDataExchange(pDX);

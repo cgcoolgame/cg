@@ -14,5 +14,3 @@
 *.cache
 *.idb
 *.lib
-*.lib
-cgNetwork/lib/cgNetwork_D.lib
