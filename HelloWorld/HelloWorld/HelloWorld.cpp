@@ -24,8 +24,9 @@ int _tmain(int argc, _TCHAR* argv[])
 		cout<<"Hello World !"<<endl;
 
 		nFind = TMax(nFind, rand());
+		cout<<"Temp Max = "<<nFind<<endl;
 	}
-
+	
 	cout<<"Max = "<<nFind<<endl;
 
 	system("pause");
